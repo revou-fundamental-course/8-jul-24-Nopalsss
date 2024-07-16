@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <header>
+    <div class="title">Kalkulator BMI</div>
+  </header>
+  <body>
+    <article>
+      <div class="text">Kalkulator BMI (Body Mass Index) adalah alat yang digunakan untuk menghitung dan mengevaluasi 
+        berat badan seseorang berdasarkan tinggi dan berat badan</a>
+    </article>
+    <main>
+      <div class="calculator">
+        <label for="berat">Berat(kg):</label>
+        <input type="number" id="berat" placeholder="Masukkan Berat">
+        <br>
+        <label2 for="tinggi">Tinggi(m):</label2>
+        <input type="number" id="tinggi" placeholder="Masukkan Tinggi">
+        <br>
+        <button class="button" onclick="calculateBMI()">Hitung BMI</button>
+      </div>
+      <p class="hasil" id="result"></p>
+      <script src="../javascript/script.js"></script>
+    </main>
+  </body>
+</html>
+
